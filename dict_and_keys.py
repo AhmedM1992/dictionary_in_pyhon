@@ -3,7 +3,7 @@ def dict_1(slovar, keys):
     if keys in slovar:
         return slovar[keys]
     else:
-        return "None"
+        return None
 
 print dict_1(my_dict, 'work')
 QA
